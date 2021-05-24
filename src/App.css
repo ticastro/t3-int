@@ -1,4 +1,98 @@
 .leaflet-container {
-  width: 100vw;
-  height: 1000vh;
+  width: 60vw;
+  height: 60vh;
 }
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+  text-align: right;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+  text-align: right;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+  text-align: left;
+}
+
+div.scroll {
+  position: relative;
+  left: 8px;
+  border:  100px;
+  margin:4px, 4px;
+  padding:4px;
+  width: 500px;
+  height: 600px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align:justify;
+}
+
+div.chat{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 18px;
+}
+div.mapa{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+
+}
+input{
+  position: relative;
+  left: 15px;
+  width: 300px;
+}
+
+input.nick{
+  position:relative;
+  left: 15px;
+  width: 300px;
+}
+
+button{
+  position: relative;
+  left: 5px;
+}
+
+div.informacion{
+  position: absolute;
+  top: 430px;
+  left: 16px;
+  font-size: 18px;
+}
+
+div.scroll-info {
+  position: relative;
+  left: 8px;
+  margin:4px, 4px;
+  width: 58vw;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align:justify;
+}
+
